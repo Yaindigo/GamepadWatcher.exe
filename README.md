@@ -17,7 +17,7 @@
 
 ## 📦 Download
 
-👉 [Latest release](https://github.com/your_username/GamepadWatcher/releases/latest)
+👉 [Latest release](https://github.com/Yaindigo/GamepadWatcher/releases/latest)
 
 > You’ll find a zipped `.exe` ready to run. No setup needed.
 
