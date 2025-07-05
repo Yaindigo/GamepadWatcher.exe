@@ -7,11 +7,11 @@
 
 ##  Features
 
-- ✅ Monitors gamepad connection via XInput
-- 🎯 Sends `Alt+F4` when controller disconnects
-- 💤 Runs silently in the background (no console window)
-- 🔌 Works with any Xbox-compatible (XInput) gamepad
-- 💾 Portable `.exe`, no install required
+- Monitors gamepad connection via XInput
+- Sends `Alt+F4` when controller disconnects
+- Runs silently in the background (no console window)
+- Works with any Xbox-compatible (XInput) gamepad
+- Portable `.exe`, no install required
 
 ---
 
