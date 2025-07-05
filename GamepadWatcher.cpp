@@ -10,20 +10,20 @@
 void SimulateAltF4() {
     INPUT input[4] = {};
 
-    // Нажатие Alt
+    // ГЌГ Г¦Г ГІГЁГҐ Alt
     input[0].type = INPUT_KEYBOARD;
     input[0].ki.wVk = VK_MENU; // Alt
 
-    // Нажатие F4
+    // ГЌГ Г¦Г ГІГЁГҐ F4
     input[1].type = INPUT_KEYBOARD;
     input[1].ki.wVk = VK_F4;
 
-    // Отпускание F4
+    // ГЋГІГЇГіГ±ГЄГ Г­ГЁГҐ F4
     input[2].type = INPUT_KEYBOARD;
     input[2].ki.wVk = VK_F4;
     input[2].ki.dwFlags = KEYEVENTF_KEYUP;
 
-    // Отпускание Alt
+    // ГЋГІГЇГіГ±ГЄГ Г­ГЁГҐ Alt
     input[3].type = INPUT_KEYBOARD;
     input[3].ki.wVk = VK_MENU;
     input[3].ki.dwFlags = KEYEVENTF_KEYUP;
