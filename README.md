@@ -17,6 +17,6 @@
 
 ## 📦 Загрузка
 
- [Скачать последнюю версию](https://github.com/Yaindigo/GamepadWatcher/releases/latest)
+ [Скачать последнюю версию](https://github.com/Yaindigo/GamepadWatcher.exe/releases/latest)
 
 > В архиве `.exe` готовый к запуску, установка не нужна.
