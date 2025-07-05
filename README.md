@@ -1,35 +1,22 @@
 # 🎮 GamepadWatcher
 
-> A lightweight background utility for Windows that simulates `Alt+F4` when your gamepad disconnects.  
-> Perfect for auto-closing Steam Big Picture or fullscreen apps launched by a controller.
+> Лёгкая утилита для Windows, которая следит за состоянием геймпада и симулирует `Alt+F4`, когда контроллер отключается.  
+> Идеально подходит для автоматического закрытия Steam Big Picture или других полноэкранных приложений, запущенных с помощью геймпада.
 
 ---
 
-##  Features
+## Возможности
 
-- Monitors gamepad connection via XInput
-- Sends `Alt+F4` when controller disconnects
-- Runs silently in the background (no console window)
-- Works with any Xbox-compatible (XInput) gamepad
-- Portable `.exe`, no install required
-
----
-
-##  Download
-
-👉 [Latest release](https://github.com/Yaindigo/GamepadWatcher.exe/releases/latest)
-
-> You’ll find a zipped `.exe` ready to run. No setup needed.
+- Отслеживание подключения геймпада через XInput  
+- Автоматическая отправка `Alt+F4` при отключении контроллера  
+- Работает тихо в фоне без консольного окна  
+- Поддержка любых геймпадов, совместимых с XInput (например, Xbox-контроллеры)  
+- Портативный `.exe`, не требует установки
 
 ---
 
-## How It Works
+## 📦 Загрузка
 
-1. The app uses `XInputGetState` to check if a gamepad is connected.
-2. If the gamepad was connected and then disappears — it triggers `Alt+F4`.
-3. Use this to automatically exit:
-   - Steam Big Picture Mode
-   - Fullscreen games or apps
-   - Emulators launched with a pad
+ [Скачать последнюю версию](https://github.com/Yaindigo/GamepadWatcher/releases/latest)
 
----
+> В архиве `.exe` готовый к запуску, установка не нужна.
