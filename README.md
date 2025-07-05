@@ -5,7 +5,7 @@
 
 ---
 
-## ✨ Features
+##  Features
 
 - ✅ Monitors gamepad connection via XInput
 - 🎯 Sends `Alt+F4` when controller disconnects
@@ -15,15 +15,15 @@
 
 ---
 
-## 📦 Download
+##  Download
 
-👉 [Latest release](https://github.com/Yaindigo/GamepadWatcher/releases/latest)
+👉 [Latest release](https://github.com/Yaindigo/GamepadWatcher.exe/releases/latest)
 
 > You’ll find a zipped `.exe` ready to run. No setup needed.
 
 ---
 
-## 🧑‍💻 How It Works
+## How It Works
 
 1. The app uses `XInputGetState` to check if a gamepad is connected.
 2. If the gamepad was connected and then disappears — it triggers `Alt+F4`.
