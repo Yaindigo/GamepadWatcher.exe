@@ -1,25 +1,35 @@
-# GamepadWatcher.exe
-GamepadWatcher is a lightweight Windows utility that monitors your gamepad connection using XInput.
-If the controller is disconnected, the app simulates Alt+F4, allowing you to automatically close Steam Big Picture Mode or any fullscreen app launched by the gamepad.
+# 🎮 GamepadWatcher
 
-✨ Features:
-Runs quietly in the background
+> A lightweight background utility for Windows that simulates `Alt+F4` when your gamepad disconnects.  
+> Perfect for auto-closing Steam Big Picture or fullscreen apps launched by a controller.
 
-Automatically detects gamepad disconnection
+---
 
-Sends Alt+F4 to close Big Picture or other apps
+## ✨ Features
 
-Very lightweight — no installation required
+- ✅ Monitors gamepad connection via XInput
+- 🎯 Sends `Alt+F4` when controller disconnects
+- 💤 Runs silently in the background (no console window)
+- 🔌 Works with any Xbox-compatible (XInput) gamepad
+- 💾 Portable `.exe`, no install required
 
-Works with Xbox-compatible (XInput) gamepads
+---
 
-🔧 Use Case:
-You’re using Big Picture Mode with a wireless controller. When the battery dies or the pad shuts down — Big Picture keeps running, taking over your screen.
-This tool solves it automatically.
+## 📦 Download
 
-📦 How to use:
-Just run the .exe — no UI, works in the background.
+👉 [Latest release](https://github.com/your_username/GamepadWatcher/releases/latest)
 
-When your gamepad disconnects, it sends Alt+F4.
+> You’ll find a zipped `.exe` ready to run. No setup needed.
 
-Optional: add to autostart.
+---
+
+## 🧑‍💻 How It Works
+
+1. The app uses `XInputGetState` to check if a gamepad is connected.
+2. If the gamepad was connected and then disappears — it triggers `Alt+F4`.
+3. Use this to automatically exit:
+   - Steam Big Picture Mode
+   - Fullscreen games or apps
+   - Emulators launched with a pad
+
+---
